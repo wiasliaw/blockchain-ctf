@@ -1,0 +1,22 @@
+[profile.default]
+out = 'out'
+libs = ['lib']
+
+[profile.hello_ethernaut]
+src = 'hello_ethernaut'
+test = 'hello_ethernaut'
+
+[profile.fallback]
+src = 'fallback'
+test = 'fallback'
+
+[profile.fallout]
+src = 'fallout'
+test = 'fallout'
+
+[profile.king]
+src = 'king'
+test = 'king'
+
+[rpc_endpoints]
+rinkeby = "${RINKEBY_RPC_URL}"
